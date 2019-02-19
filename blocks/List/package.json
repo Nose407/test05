@@ -1,0 +1,34 @@
+{
+  "name": "cj_test05-list",
+  "version": "1.0.0",
+  "description": "list",
+  "author": "陈建 <chenjian407@163.com>",
+  "files": [
+    "src/",
+    "build/",
+    "screenshot.png"
+  ],
+  "license": "MIT",
+  "keywords": ["ice","react","block"],
+  "scripts": {
+    "start": "ice-devtools start",
+    "build": "ice-devtools build",
+    "screenshot": "ice-devtools screenshot",
+    "prepublishOnly": "npm run build && npm run screenshot"
+  },
+  "dependencies": {
+    "react": "^16.2.0",
+    "prop-types": "^15.5.8",
+    "@alifd/next": "^1.11.2"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.com"
+  },
+  "blockConfig": {
+    "name": "cj_test05-list",
+    "title": "list",
+    "categories": [
+        "列表" 
+    ]
+  }
+}
